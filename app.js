@@ -950,11 +950,15 @@ function restartGame() {
 }
 
 // ==================== 宣传视频 ====================
-function playVideo() {
+function openVideoModal() {
     document.getElementById('video-modal').style.display = 'flex';
 }
 
 function closeVideoModal() {
+    const video = document.getElementById('video-player');
+    if (video) {
+        video.pause();
+    }
     document.getElementById('video-modal').style.display = 'none';
 }
 
