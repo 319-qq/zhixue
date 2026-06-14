@@ -1,0 +1,24 @@
+{
+  "name": "zhixue-ai",
+  "version": "1.0.0",
+  "description": "智学AI - 智能学习助手",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -l ${PORT:-3000}",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "ai",
+    "learning",
+    "education",
+    "assistant"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
